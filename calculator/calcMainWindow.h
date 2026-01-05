@@ -6,6 +6,7 @@
 #include "ui_calculatorUI.h"
 #include <iostream>
 #include <cmath>
+#include <algorithm>
 
 class CalcMainWindow : public QMainWindow
 {
@@ -56,7 +57,19 @@ public slots:
         else if(full.contains("%")) op = "%";
         else if(full.contains("√")) op = "√";
 
+        if(op == "")
+            return;
+
         QStringList parts = full.split(op);
+
+        for (const QString& part : parts) {
+            for (QChar c : part) {
+                if (c.isLetter()) {
+                    lineEdit->setText("ERROR");
+                    return;
+                }
+            }
+        }
 
         double first = 0.0f, second = 0.0f;
 
