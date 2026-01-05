@@ -11,11 +11,6 @@
 class CalcMainWindow : public QMainWindow
 {
     Q_OBJECT
-
-    double first_num = 0;
-    QString operation = "";
-    double second_num = 0;
-
 public:
     QLineEdit* lineEdit = nullptr;
     CalcMainWindow(QWidget *parent = nullptr) : QMainWindow(parent){}
@@ -113,3 +108,4 @@ public slots:
     }
 };
 #endif
+
