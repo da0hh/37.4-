@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>916</width>
-    <height>937</height>
+    <width>884</width>
+    <height>701</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -44,7 +44,7 @@
       <item>
        <layout class="QGridLayout" name="gridLayout">
         <item row="0" column="1">
-         <widget class="QPushButton" name="pushButton_19">
+         <widget class="QPushButton" name="pushButton_sqr">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -69,7 +69,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="4" column="3">
-         <widget class="QPushButton" name="pushButton_13">
+         <widget class="QPushButton" name="pushButton_mul">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -94,7 +94,7 @@ color: rgb(255, 255, 255);</string>
          </widget>
         </item>
         <item row="4" column="0">
-         <widget class="QPushButton" name="pushButton_5">
+         <widget class="QPushButton" name="pushButton_7">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -119,7 +119,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="8" column="2">
-         <widget class="QPushButton" name="pushButton_10">
+         <widget class="QPushButton" name="pushButton_3">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -144,7 +144,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="5" column="2">
-         <widget class="QPushButton" name="pushButton_7">
+         <widget class="QPushButton" name="pushButton_6">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -169,7 +169,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="5" column="1">
-         <widget class="QPushButton" name="pushButton_8">
+         <widget class="QPushButton" name="pushButton_5">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -194,7 +194,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="5" column="3">
-         <widget class="QPushButton" name="pushButton_14">
+         <widget class="QPushButton" name="pushButton_minus">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -219,7 +219,7 @@ color: rgb(255, 255, 255);</string>
          </widget>
         </item>
         <item row="4" column="1">
-         <widget class="QPushButton" name="pushButton_4">
+         <widget class="QPushButton" name="pushButton_8">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -244,7 +244,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="0" column="0">
-         <widget class="QPushButton" name="pushButton_20">
+         <widget class="QPushButton" name="pushButton_clear">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -269,7 +269,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="0" column="2">
-         <widget class="QPushButton" name="pushButton_18">
+         <widget class="QPushButton" name="pushButton_procent">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -294,7 +294,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="8" column="1">
-         <widget class="QPushButton" name="pushButton_6">
+         <widget class="QPushButton" name="pushButton_2">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -319,7 +319,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="9" column="1">
-         <widget class="QPushButton" name="pushButton_2">
+         <widget class="QPushButton" name="pushButton_0">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -344,7 +344,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="9" column="2">
-         <widget class="QPushButton" name="pushButton_11">
+         <widget class="QPushButton" name="pushButton_dot">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -369,7 +369,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="5" column="0">
-         <widget class="QPushButton" name="pushButton_9">
+         <widget class="QPushButton" name="pushButton_4">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -394,7 +394,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="8" column="3">
-         <widget class="QPushButton" name="pushButton_15">
+         <widget class="QPushButton" name="pushButton_plus">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -419,7 +419,7 @@ color: rgb(255, 255, 255);</string>
          </widget>
         </item>
         <item row="0" column="3">
-         <widget class="QPushButton" name="pushButton_17">
+         <widget class="QPushButton" name="pushButton_div">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -444,7 +444,7 @@ color: rgb(255, 255, 255);</string>
          </widget>
         </item>
         <item row="9" column="3">
-         <widget class="QPushButton" name="pushButton_16">
+         <widget class="QPushButton" name="pushButton_equal">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -469,7 +469,7 @@ color: rgb(255, 255, 255);</string>
          </widget>
         </item>
         <item row="9" column="0">
-         <widget class="QPushButton" name="pushButton_12">
+         <widget class="QPushButton" name="pushButton_root">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -494,7 +494,7 @@ color: rgb(255, 255, 255)</string>
          </widget>
         </item>
         <item row="4" column="2">
-         <widget class="QPushButton" name="pushButton_3">
+         <widget class="QPushButton" name="pushButton_9">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -520,7 +520,7 @@ color: rgb(255, 255, 255)
          </widget>
         </item>
         <item row="8" column="0">
-         <widget class="QPushButton" name="pushButton">
+         <widget class="QPushButton" name="pushButton_1">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -555,8 +555,8 @@ color: rgb(255, 255, 255)</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>916</width>
-     <height>26</height>
+     <width>884</width>
+     <height>25</height>
     </rect>
    </property>
   </widget>
@@ -565,7 +565,7 @@ color: rgb(255, 255, 255)</string>
  <resources/>
  <connections>
   <connection>
-   <sender>pushButton_11</sender>
+   <sender>pushButton_dot</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>dot()</slot>
@@ -581,7 +581,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_14</sender>
+   <sender>pushButton_minus</sender>
    <signal>clicked(bool)</signal>
    <receiver>MainWindow</receiver>
    <slot>subtraction()</slot>
@@ -597,7 +597,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_17</sender>
+   <sender>pushButton_div</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>division()</slot>
@@ -613,7 +613,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_18</sender>
+   <sender>pushButton_procent</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>procent()</slot>
@@ -629,7 +629,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_19</sender>
+   <sender>pushButton_sqr</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>square()</slot>
@@ -645,7 +645,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_5</sender>
+   <sender>pushButton_7</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>add7()</slot>
@@ -661,7 +661,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton</sender>
+   <sender>pushButton_1</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>add1()</slot>
@@ -677,7 +677,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_6</sender>
+   <sender>pushButton_2</sender>
    <signal>clicked(bool)</signal>
    <receiver>MainWindow</receiver>
    <slot>add2()</slot>
@@ -693,7 +693,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_10</sender>
+   <sender>pushButton_3</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>add3()</slot>
@@ -709,7 +709,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_7</sender>
+   <sender>pushButton_6</sender>
    <signal>clicked(bool)</signal>
    <receiver>MainWindow</receiver>
    <slot>add6()</slot>
@@ -725,7 +725,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_3</sender>
+   <sender>pushButton_9</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>add9()</slot>
@@ -741,7 +741,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_4</sender>
+   <sender>pushButton_8</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>add8()</slot>
@@ -757,7 +757,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_8</sender>
+   <sender>pushButton_5</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>add5()</slot>
@@ -773,7 +773,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_9</sender>
+   <sender>pushButton_4</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>add4()</slot>
@@ -789,7 +789,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_2</sender>
+   <sender>pushButton_0</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>add0()</slot>
@@ -805,7 +805,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_20</sender>
+   <sender>pushButton_clear</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>delete_all()</slot>
@@ -821,7 +821,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_15</sender>
+   <sender>pushButton_plus</sender>
    <signal>clicked(bool)</signal>
    <receiver>MainWindow</receiver>
    <slot>addition()</slot>
@@ -837,7 +837,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_16</sender>
+   <sender>pushButton_equal</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>equality()</slot>
@@ -853,7 +853,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_13</sender>
+   <sender>pushButton_mul</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>multiply()</slot>
@@ -869,7 +869,7 @@ color: rgb(255, 255, 255)</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_12</sender>
+   <sender>pushButton_root</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>root()</slot>
