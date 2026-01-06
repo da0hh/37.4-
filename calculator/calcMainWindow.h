@@ -11,33 +11,32 @@
 class CalcMainWindow : public QMainWindow
 {
     Q_OBJECT
+
 public:
     QLineEdit* lineEdit = nullptr;
     CalcMainWindow(QWidget *parent = nullptr) : QMainWindow(parent){}
 
 public slots:
-    void add0(){ lineEdit->setText(lineEdit->text() + "0"); }
-    void add1(){ lineEdit->setText(lineEdit->text() + "1"); }
-    void add2(){ lineEdit->setText(lineEdit->text() + "2"); }
-    void add3(){ lineEdit->setText(lineEdit->text() + "3"); }
-    void add4(){ lineEdit->setText(lineEdit->text() + "4"); }
-    void add5(){ lineEdit->setText(lineEdit->text() + "5"); }
-    void add6(){ lineEdit->setText(lineEdit->text() + "6"); }
-    void add7(){ lineEdit->setText(lineEdit->text() + "7"); }
-    void add8(){ lineEdit->setText(lineEdit->text() + "8"); }
-    void add9(){ lineEdit->setText(lineEdit->text() + "9"); }
+    void clickedDigit(){
+            QPushButton *btn = qobject_cast<QPushButton*>(sender());
+            if(btn){
+                QString name = btn->text();
+                if(lineEdit->text() == "0" && name != ",") lineEdit->clear();
+                lineEdit->setText(lineEdit->text() + name);
+            }
+    }
+
+    void clickedOperator(){
+        if (QPushButton *btn = qobject_cast<QPushButton*>(sender())) {
+            QString current = lineEdit->text();
+            if (!current.isEmpty() && !current.back().isDigit() && current.back() != u'²' && current.back() != u',') {
+                return;
+            }
+            lineEdit->setText(current + btn->text());
+        }
+    }
 
     void delete_all(){lineEdit->setText("0");}
-    void root(){ lineEdit->setText(lineEdit->text() + "√"); }
-    void multiply(){lineEdit->setText(lineEdit->text() + "x");}
-    void division(){lineEdit->setText(lineEdit->text() + "/");}
-    void subtraction(){lineEdit->setText(lineEdit->text() + "-");}
-    void addition(){lineEdit->setText(lineEdit->text() + "+");}
-    void procent(){lineEdit->setText(lineEdit->text() + "%");}
-    void square(){
-        lineEdit->setText(lineEdit->text() + "²");
-    }
-    void dot(){lineEdit->setText(lineEdit->text() + ",");}
 
     void equality(){
         QString full = lineEdit->text();
@@ -67,7 +66,6 @@ public slots:
         }
 
         double first = 0.0f, second = 0.0f;
-
         if(parts.size() < 2){
             first = parts[0].replace(",", ".").toDouble();
             second = 0;
@@ -85,27 +83,28 @@ public slots:
             res = first / second;
         else if(op == "x")
             res = first * second;
-        else if(op == "%")
+        else if(op == "%"){
             res = (int)first % (int)second;
+        }
         else if(op == "√"){
             if(first < 0){
-                lineEdit->setText("ERROR: Neg root\n");
+                lineEdit->setText("ERROR");
                 return;
             }
             res = std::sqrt(first);
         }
         else if(op == "²"){
             if(second > 0){
-                std::cerr << "ERROR\n";
+                std::cerr << "ERROR";
                 return;}
             res = pow(first, 2);
         }
         else{
-            std::cerr << "ERROR\n";
+            std::cerr << "ERROR";
             return;
         }
-        lineEdit->setText(QString::number(res));
+
+        lineEdit->setText(QString::number(res, 'g', 10));
     }
 };
 #endif
-
